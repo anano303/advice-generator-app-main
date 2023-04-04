@@ -94,11 +94,48 @@ button {
     transform: translateY(-30px);
     right: 155px;
     position: sticky;
-    
-    
-    
+}
+button:hover, button:active {
+    background: #53FFAA;
+    box-shadow: 0px 0px 40px #53FFAA;
 }
 footer img {
     position: absolute;
     transform: translateY(170px);
+}
+
+@media screen and (min-width: 1440px) {
+    .container {
+        width: 540px;
+        min-height: 332px;
+    }
+    p {
+        font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    text-align: center;
+    letter-spacing: -0.3px;
+
+    }
+    h1 {
+        font-family: 'Manrope';
+        font-style: normal;
+        font-weight: 800;
+        font-size: 13px;
+        line-height: 18px;
+        text-align: center;
+        letter-spacing: 4.08571px;
+        margin-bottom: 48px;
+    }
+    .first , .third {
+        height: 1px;
+        width: 196px;
+        border: 1px solid #4F5D74;
+        
+    }
+    .borders {
+        margin-bottom: 67px;
+    }
 }
